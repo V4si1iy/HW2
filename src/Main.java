@@ -1,6 +1,99 @@
 public class Main {
     public static void main(String[] args) {
-       System.out.println("Hi");
+        task1();
+        task2();
+        task3();
+        task4();
+        task5();
+        task6();
+        task7();
+        task8();
     }
-
+    public static void task1()
+    {
+        System.out.println("Задача №1");
+        var dog= 8.0;
+        var cat = 3.6;
+        var paper = 763789;
+        System.out.println(dog + " " + cat + " "  + " " + paper);
+    }
+    public static void task2()
+    {
+        System.out.println("Задача №2");
+        var dog= 8.0;
+        var cat = 3.6;
+        var paper = 763789;
+        dog+=4;
+        cat+=4;
+        paper+=4;
+        System.out.println(dog + " " + cat + " "  + " " + paper);
+    }
+    public static void task3()
+    {
+        System.out.println("Задача №3");
+        var dog= 8.0;
+        var cat = 3.6;
+        var paper = 763789;
+        dog-=3.5;
+        cat-=1.6;
+        paper-=7639;
+        System.out.println(dog + " " + cat + " "  + " " + paper);
+    }
+    public static void task4()
+    {
+        System.out.println("Задача №4");
+        var friend = 19;
+        System.out.println(friend);
+        friend+=2;
+        System.out.println(friend);
+        friend/=7;
+        System.out.println(friend);
+    }
+    public static void task5()
+    {
+        System.out.println("Задача №5");
+        var frog = 3.5;
+        System.out.println(frog);
+        frog*=10;
+        System.out.println(frog);
+        frog/=3.5;
+        System.out.println(frog);
+        frog+=4;
+        System.out.println(frog);
+    }
+    public static void task6()
+    {
+        System.out.println("Задача №6");
+        var boxer1 = 78.2;
+        var boxer2 = 82.7;
+        var sumOfBoxers = 0.0;
+        var subOfBoxers = 0.0;
+        sumOfBoxers = boxer1 + boxer2;
+        subOfBoxers = boxer2 - boxer1;
+        System.out.println(sumOfBoxers + " " + subOfBoxers);
+    }
+    public static void task7()
+    {
+        System.out.println("Задача №7");
+        var boxer1 = 78.2;
+        var boxer2 = 82.7;
+        var subOfBoxers = 0.0;
+        subOfBoxers = boxer2 - boxer1;
+        System.out.println(subOfBoxers);
+        subOfBoxers = boxer2 % boxer1;
+        System.out.println(subOfBoxers);
+    }
+    public static void task8()
+    {
+        System.out.println("Задача №8.1");
+        var allTime = 640;
+        var oneWorkerTime =8;
+        var workers = 0;
+        workers= allTime / oneWorkerTime;
+        System.out.println("Всего работников в компании — " + workers + " человек");
+        System.out.println("Задача №8.2");
+        workers= 94;
+        allTime= workers * oneWorkerTime;
+        System.out.println("Если в компании работает " + workers + " человек, то всего " + allTime + " часов работы может быть поделено между сотрудниками");
+    }
 }
